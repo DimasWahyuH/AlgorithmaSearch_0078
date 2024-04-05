@@ -5,7 +5,7 @@ int arr[20];
 int n;
 int i;
 
-void input() 
+void input()
 {
 	while (true)
 	{
@@ -20,4 +20,8 @@ void input()
 	cout << "\n-------------------\n";
 	cout << "Enter array elements \n";
 	cout << "---------------------\n";
+	for (i = 0; i < n; i++)
+	{
+		cout << "<" << (i + 1) << ">";
+	}
 }
